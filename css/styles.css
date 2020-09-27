@@ -1,3 +1,6 @@
+/*******************ID SELECTORS*****************************************/
+
+/*******************TAG SELECTORS*****************************************/
 body {
   background-color: papayawhip;
   text-align: center;
@@ -23,10 +26,6 @@ form {
   text-align: left;
 }
 
-.imgSelf {
-  height: 200px;
-  width: 200px;
-}
 
 h1 {
   color: orangered;
@@ -38,12 +37,6 @@ h3 {
   text-align: center;
 }
 
-.head {
-  background-color: inherit;
-  color: grey;
-  padding: inherit;
-}
-
 a {
   background-color: inherit;
   color: inherit;
@@ -51,4 +44,28 @@ a {
   text-align: left;
   text-decoration: none;
   display: inline-block;
+}
+
+/*******************CLASS SELECTORS*****************************************/
+.head:hover{
+  background-color: yellow;
+}
+a:hover{
+  background-color: grey;
+}
+
+.head {
+  background-color: inherit;
+  color: grey;
+  padding: inherit;
+}
+.selfImg{
+  height: 200px;
+  width: 200px;
+}
+.linkedIn{
+  text-align: left;
+}
+.email{
+  text-align: left;
 }
